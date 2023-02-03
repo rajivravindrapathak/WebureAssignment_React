@@ -9,6 +9,15 @@ import produtial from "../Image/Vector2.svg"
 import microsoft from "../Image/Vector8.svg"
 import zoover from "../Image/Vector9.svg"
 import groupgirlimg from "../Image/Group2071.svg"
+import roundtirimg from "../Image/Vector10.svg"
+import statelineimg from "../Image/Vector11.svg"
+import ticimg from "../Image/Vector12.svg"
+import mainimg from "../Image/Solutions.svg"
+import Countdown from "../Image/Countdown.svg"
+import dotimg from "../Image/dot1.svg"
+import dotimg1 from "../Image/dot.svg"
+import dotimg2 from "../Image/dot2.svg"
+
 
 const HomePage = () => {
 
@@ -109,22 +118,77 @@ const HomePage = () => {
             <div className="fourthDiv">
                 <div className="girlLaptopDiv">
                     <img className="groupgirlimg" src={groupgirlimg} />
-                    <img className="group" />
-                    <img />
+                    <img className="grouproundtirimg" src={roundtirimg} />
+                    <img className="statelineimg" src={statelineimg} />
                 </div>
-                <div>
+                
+                <div className="girlLaptopRightDiv">
+                    <p>why choose us</p>
+                    <div>
+                        <h3>Take any challenge of digital world</h3>
+                        
+                        <div className="ticimg">
+                            <img src={ticimg} />
+                            <p>Corporate Financial Advisory </p>
+                        </div>
+
+                        <div className="ticimg">
+                            <img src={ticimg} />
+                            <p>Development of Financial Models</p>
+                        </div>
+                        <div className="ticimg">
+                            <img src={ticimg} />
+                            <p>Deal Structuring</p>
+                        </div>
+
+                    </div>
+
+                    <div className="emailDiv">
+                        <h3>Enter your email ID </h3>
+                        <div>
+                            <button>Get Started</button>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-            <div>
+
+            <div className="fifthDiv">
+                <img className="" src={mainimg} />
+                {/* <img src={submainimg} alt="" /> */}
+
+                {/* <div className="childfifthDiv"> */}
+                    {/* <p className="our">OUR SOLUTIONS</p>
+                    <h2>Launch and scale your marketings campaigns</h2>
+                    <p>
+                        We start with a kick-off call with the respective project owners,
+                        onboard the teams on the project management platform and, take off.
+                    </p>
+                    <button className="learnMore">Learn more</button> */}
+                {/* </div> */}
+
+                {/* <div>
+
+                </div> */}
 
             </div>
-            <div>
 
+            <div className="sixDiv">
+                <img src={Countdown} />
             </div>
-            <div>
 
+            <div>
+                <img className="dotimg2" src={dotimg2} />
+                <img className="dotimg" src={dotimg} alt="" />
+                <img className="dotimg1" src={dotimg1} alt="" />
+                <h1>What We Do</h1>
             </div>
+
+            <div className="text">
+                <h3>Our Services</h3>
+                <p>It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature</p>
+            </div>
+
         </div>
      );
 }
